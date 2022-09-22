@@ -1,0 +1,37 @@
+2022-09-09 16:56:09,490 CRITICAL server_log_config.py Critical event
+2022-09-09 16:56:09,490 ERROR server_log_config.py Error event
+2022-09-09 16:56:09,490 DEBUG server_log_config.py Debug event
+2022-09-09 16:56:09,490 INFO server_log_config.py Info event
+2022-09-09 17:47:23,536 INFO server_part.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-09-09 17:48:21,626 INFO server_part.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-09-09 17:59:24,219 INFO server_part.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-09-09 18:01:28,858 INFO server_part.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-09-09 18:02:02,672 INFO server_part.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-09-09 18:31:27,370 INFO server_part.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-09-09 18:31:31,582 INFO server_part.py Установлено соедение с ПК ('127.0.0.1', 58725)
+2022-09-09 18:31:31,582 DEBUG server_part.py Получено сообщение {'action': 'presence', 'time': 1662741091.5822613, 'user': {'account_name': 'Guest'}}
+2022-09-09 18:31:31,582 DEBUG server_part.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1662741091.5822613, 'user': {'account_name': 'Guest'}}
+2022-09-09 18:31:31,582 INFO server_part.py Ответ клиенту {'response': 200}
+2022-09-09 18:31:31,582 DEBUG server_part.py Соединение с клиентом ('127.0.0.1', 58725) закрывается.
+2022-09-09 22:06:14,412 CRITICAL server_log_config.py Critical event
+2022-09-09 22:06:14,412 ERROR server_log_config.py Error event
+2022-09-09 22:06:14,412 DEBUG server_log_config.py Debug event
+2022-09-09 22:06:14,412 INFO server_log_config.py Info event
+2022-09-09 22:14:32,874 CRITICAL server_log_config.py Critical event
+2022-09-09 22:14:32,874 ERROR server_log_config.py Error event
+2022-09-09 22:14:32,874 DEBUG server_log_config.py Debug event
+2022-09-09 22:14:32,874 INFO server_log_config.py Info event
+2022-09-09 22:14:53,112 CRITICAL server_log_config.py Critical event
+2022-09-09 22:14:53,112 ERROR server_log_config.py Error event
+2022-09-09 22:14:53,112 DEBUG server_log_config.py Debug event
+2022-09-09 22:14:53,112 INFO server_log_config.py Info event
+2022-09-09 22:17:54,122 CRITICAL server_log_config.py Critical event
+2022-09-09 22:17:54,122 ERROR server_log_config.py Error event
+2022-09-09 22:17:54,122 DEBUG server_log_config.py Debug event
+2022-09-09 22:17:54,122 INFO server_log_config.py Info event
+2022-09-09 23:09:00,380 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2022-09-09 23:09:00,411 INFO server_part.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-09-09 23:09:30,341 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2022-09-09 23:09:30,356 DEBUG decos.py Была вызвана функция create_presence c параметрами () , {}. Вызов из модуля __main__
+2022-09-09 23:10:00,681 DEBUG decos.py Была вызвана функция arg_parser c параметрами () , {}. Вызов из модуля __main__
+2022-09-09 23:10:00,696 INFO server_part.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.

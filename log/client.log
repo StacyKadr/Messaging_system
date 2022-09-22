@@ -1,0 +1,24 @@
+2022-09-09 16:56:18,068 CRITICAL client_log_config.py Critical event
+2022-09-09 16:56:18,068 ERROR client_log_config.py Error event
+2022-09-09 16:56:18,068 DEBUG client_log_config.py Debug event
+2022-09-09 16:56:18,068 INFO client_log_config.py Info event
+2022-09-09 22:06:46,925 CRITICAL client_log_config.py Critical event
+2022-09-09 22:06:46,941 ERROR client_log_config.py Error event
+2022-09-09 22:06:46,941 DEBUG client_log_config.py Debug event
+2022-09-09 22:06:46,941 INFO client_log_config.py Info event
+2022-09-09 22:13:02,302 CRITICAL client_log_config.py Critical event
+2022-09-09 22:13:02,302 ERROR client_log_config.py Error event
+2022-09-09 22:13:02,302 DEBUG client_log_config.py Debug event
+2022-09-09 22:13:02,302 INFO client_log_config.py Info event
+2022-09-09 22:17:37,752 CRITICAL client_log_config.py Critical event
+2022-09-09 22:17:37,752 ERROR client_log_config.py Error event
+2022-09-09 22:17:37,752 DEBUG client_log_config.py Debug event
+2022-09-09 22:17:37,752 INFO client_log_config.py Info event
+2022-09-19 12:26:33,054 INFO client_part.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: user
+2022-09-19 12:26:33,116 DEBUG client_part.py Сформировано presence сообщение для пользователя user
+2022-09-19 12:26:33,616 DEBUG client_part.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-09-19 12:26:33,616 INFO client_part.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-09-19 12:26:33,616 DEBUG client_part.py Запущены процессы
+2022-09-19 12:27:11,155 DEBUG client_part.py Сформирован словарь сообщения: {'action': 'message', 'from': 'user', 'to': 'привет', 'time': 1663583231.1550035, 'mess_text': 'привет'}
+2022-09-19 12:27:11,155 INFO client_part.py Отправлено сообщение для пользователя привет
+2022-09-19 12:27:23,511 INFO client_part.py Завершение работы по команде пользователя.
