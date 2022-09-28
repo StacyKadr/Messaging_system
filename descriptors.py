@@ -1,5 +1,10 @@
 import logging
-logger = logging.getLogger('server_dist')
+import sys
+
+if sys.argv[0].find('client_dist') == -1:
+    logger = logging.getLogger('server_dist')
+else:
+    logger = logging.getLogger('client_dist')
 
 
 # Дескриптор для описания порта:
@@ -7,7 +12,7 @@ class Port:
     def __set__(self, instance, value):
         if not 1023 < value < 65536:
             logger.critical(
-                f'Попытка запуска сервера с указанием неподходящего порта {value}. Допустимы адреса с 1024 до 65535.')
+                f'Попытка запуска с указанием неподходящего порта {value}. Допустимы адреса с 1024 до 65535.')
             exit(1)
         instance.__dict__[self.name] = value
 
