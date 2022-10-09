@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef752221-3d3f-472f-851b-7d50d0a0b88b" name="Changes" comment="Lesson_10_ready">
+    <list default="true" id="ef752221-3d3f-472f-851b-7d50d0a0b88b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client_part.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_part.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/descriptors.py" beforeDir="false" afterPath="$PROJECT_DIR$/descriptors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/launcher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/client.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/client.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metaclasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/metaclasses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_base.db3" beforeDir="false" afterPath="$PROJECT_DIR$/server_base.db3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server_part.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_part.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +32,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/../../.." value="lesson-11" />
-        <entry key="$PROJECT_DIR$" value="Lesson_10_ready" />
+        <entry key="$PROJECT_DIR$" value="Lesson_11_ready" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,36 +59,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Урок 10/practice/metaclasses.py" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Урок 12/practice/server_database.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\holy_\Desktop\Python\Клиент-серверные приложения на Python\Урок 6\Lesson_6_Kadyrova\log" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.client_part">
-    <configuration name="Task_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Lesson_6_Kadyrova" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\holy_\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Useful modules" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Useful modules/Task_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.launcher">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Messaging_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +81,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client_database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lesson_6_Kadyrova" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\holy_\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client_database.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,10 +272,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.launcher" />
-        <item itemvalue="Python.client_part" />
-        <item itemvalue="Python.server_part" />
         <item itemvalue="Python.server_database" />
-        <item itemvalue="Python.Task_3" />
+        <item itemvalue="Python.server_part" />
+        <item itemvalue="Python.client_database" />
+        <item itemvalue="Python.client_part" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664261375704</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson_11_ready">
+      <created>1664376013754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664376013754</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,7 +361,8 @@
     </ignored-roots>
     <MESSAGE value="Lesson_9_ready" />
     <MESSAGE value="Lesson_10_ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson_10_ready" />
+    <MESSAGE value="Lesson_11_ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson_11_ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
