@@ -209,15 +209,21 @@ class ConfigWindow(QDialog):
 
 
 if __name__ == '__main__':
+    '''
+        app = QApplication(sys.argv)
+        ex = MainWindow()
+        ex.statusBar().showMessage('Test Statusbar Message')
+        test_list = QStandardItemModel(ex)
+        test_list.setHorizontalHeaderLabels(['Имя Клиента', 'IP Адрес', 'Порт', 'Время подключения'])
+        test_list.appendRow([QStandardItem('1'), QStandardItem('2'), QStandardItem('3')])
+        test_list.appendRow([QStandardItem('4'), QStandardItem('5'), QStandardItem('6')])
+        ex.active_clients_table.setModel(test_list)
+        ex.active_clients_table.resizeColumnsToContents()
+        print('JKJKJK')
+        app.exec_()
+        print('END')'''
     app = QApplication(sys.argv)
-    main_window = MainWindow()
-    main_window.statusBar().showMessage('Test Statusbar Message')
-    test_list = QStandardItemModel(main_window)
-    test_list.setHorizontalHeaderLabels(['Имя Клиента', 'IP Адрес', 'Порт', 'Время подключения'])
-    test_list.appendRow(
-        [QStandardItem('test1'), QStandardItem('192.198.0.5'), QStandardItem('23544'), QStandardItem('16:20:34')])
-    test_list.appendRow(
-        [QStandardItem('test2'), QStandardItem('192.198.0.8'), QStandardItem('33245'), QStandardItem('16:22:11')])
-    main_window.active_clients_table.setModel(test_list)
-    main_window.active_clients_table.resizeColumnsToContents()
+    message = QMessageBox
+    dial = ConfigWindow()
+
     app.exec_()

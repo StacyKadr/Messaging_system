@@ -1,4 +1,4 @@
-from pprint import pprint
+# from pprint import pprint
 
 from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData, ForeignKey, DateTime
 from sqlalchemy.orm import mapper, sessionmaker
@@ -45,7 +45,7 @@ class ServerStorage:
             self.accepted = 0
 
     def __init__(self, path):
-        print(path)
+        # print(path)
         self.database_engine = create_engine(f'sqlite:///{path}', echo=False, pool_recycle=7200,
                                              connect_args={'check_same_thread': False})
 
@@ -182,10 +182,10 @@ class ServerStorage:
             return
 
         # Удаляем требуемое
-        print(self.session.query(self.UsersContacts).filter(
+        self.session.query(self.UsersContacts).filter(
             self.UsersContacts.user == user.id,
             self.UsersContacts.contact == contact.id
-        ).delete())
+        ).delete()
         self.session.commit()
 
         # Функция возвращает список известных пользователей со временем последнего входа.
@@ -255,7 +255,10 @@ class ServerStorage:
 
 # Отладка
 if __name__ == '__main__':
-    main()
+    test_db = ServerStorage('server_base.db3')
+    test_db.user_login('1111', '192.168.1.113', 8080)
+    test_db.user_login('McG2', '192.168.1.113', 8081)
+    print(test_db.users_list())
     # test_db = ServerStorage('server_base.db3')
     # test_db.user_login('1111', '192.168.1.113', 8080)
     # test_db.user_login('McG2', '192.168.1.113', 8081)
