@@ -6,20 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="ef752221-3d3f-472f-851b-7d50d0a0b88b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client_database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/add_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client_test1.db3" beforeDir="false" afterPath="$PROJECT_DIR$/client/client_test1.db3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/del_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/del_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/main_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/main_window_conv.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/main_window_conv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/start_dialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/start_dialog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/transport.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/transport.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client_part.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_part.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client_test1.db3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client_test2.db3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decos.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/decos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/descriptors.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/descriptors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/decos.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/decos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/errors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/general/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/client.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/client.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metaclasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/metaclasses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_base.db3" beforeDir="false" afterPath="$PROJECT_DIR$/server_base.db3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/launcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metaclasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/metaclasses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_base.db3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_gui.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server_part.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_part.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +43,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/../../.." value="lesson-11" />
-        <entry key="$PROJECT_DIR$" value="Lesson_11_ready" />
+        <entry key="$PROJECT_DIR$" value="Lesson_13_ready" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +70,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Урок 13/practice/client/transport.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -100,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="add_contact" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="add_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lesson_6_Kadyrova" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\holy_\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/add_contact.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/add_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +155,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\holy_\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/main_window.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/main_window.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remove_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lesson_6_Kadyrova" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\holy_\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/remove_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,27 +202,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server_part.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="start_dialog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Lesson_6_Kadyrova" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\holy_\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/start_dialog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,10 +288,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.launcher" />
+        <item itemvalue="Python.add_user" />
+        <item itemvalue="Python.remove_user" />
         <item itemvalue="Python.main_window" />
         <item itemvalue="Python.server_part" />
-        <item itemvalue="Python.add_contact" />
-        <item itemvalue="Python.start_dialog" />
       </list>
     </recent_temporary>
   </component>

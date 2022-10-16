@@ -23,13 +23,6 @@ class ServerMaker(type):
                     elif i.opname == 'LOAD_ATTR':
                         if i.argval not in attrs:
                             attrs.append(i.argval)
-        # print(30*'-', 'methods', 30*'-')
-        # pprint(methods)
-        # print(30*'-', 'methods_2', 30*'-')
-        # pprint(methods_2)
-        # print(30*'-', 'attrs', 30*'-')
-        # pprint(attrs)
-        # print(60*'-')
         # Если обнаружено использование недопустимого метода connect, вызываем исключение:
         if 'connect' in methods:
             raise TypeError('Использование метода connect недопустимо в серверном классе')
