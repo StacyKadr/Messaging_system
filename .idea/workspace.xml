@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef752221-3d3f-472f-851b-7d50d0a0b88b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/add_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/client_test1.db3" beforeDir="false" afterPath="$PROJECT_DIR$/client/client_test1.db3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/del_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/del_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/main_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/main_window_conv.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/main_window_conv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/start_dialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/start_dialog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/transport.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/transport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client_part.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_part.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/descriptors.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/descriptors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general/decos.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/decos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/errors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/launcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metaclasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/general/metaclasses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_base.db3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_part.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_part.py" afterDir="false" />
-    </list>
+    <list default="true" id="ef752221-3d3f-472f-851b-7d50d0a0b88b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -353,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665470255800</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lesson_12_ready">
+      <created>1665928560794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665928560794</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,7 +357,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="Lesson_14_ready" />
                       </list>
                     </value>
                   </entry>
