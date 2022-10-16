@@ -1,14 +1,11 @@
 import dis
+# from pprint import pprint
 
 
 # Метакласс для проверки соответствия сервера:
-from pprint import pprint
-
-
 class ServerMaker(type):
     def __init__(cls, clsname, bases, clsdict):
         methods = []
-        methods_2 = []
         # Атрибуты, используемые в функциях классов
         attrs = []
         # перебираем ключи
@@ -18,24 +15,21 @@ class ServerMaker(type):
             except TypeError:
                 pass
             else:
+                # Раз функция разбираем код, получая используемые методы и атрибуты.
                 for i in ret:
-                    print(i)
                     if i.opname == 'LOAD_GLOBAL':
                         if i.argval not in methods:
                             methods.append(i.argval)
-                    elif i.opname == 'LOAD_METHOD':
-                        if i.argval not in methods_2:
-                            methods_2.append(i.argval)
                     elif i.opname == 'LOAD_ATTR':
                         if i.argval not in attrs:
                             attrs.append(i.argval)
-        print(30*'-', 'methods', 30*'-')
-        pprint(methods)
-        print(30*'-', 'methods_2', 30*'-')
-        pprint(methods_2)
-        print(30*'-', 'attrs', 30*'-')
-        pprint(attrs)
-        print(60*'-')
+        # print(30*'-', 'methods', 30*'-')
+        # pprint(methods)
+        # print(30*'-', 'methods_2', 30*'-')
+        # pprint(methods_2)
+        # print(30*'-', 'attrs', 30*'-')
+        # pprint(attrs)
+        # print(60*'-')
         # Если обнаружено использование недопустимого метода connect, вызываем исключение:
         if 'connect' in methods:
             raise TypeError('Использование метода connect недопустимо в серверном классе')
