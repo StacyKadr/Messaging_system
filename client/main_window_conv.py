@@ -9,6 +9,8 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
+from PyQt5 import QtCore, QtGui, QtWidgets
+
 class Ui_MainClientWindow(object):
     def setupUi(self, MainClientWindow):
         MainClientWindow.setObjectName("MainClientWindow")
@@ -90,4 +92,3 @@ class Ui_MainClientWindow(object):
         self.menu_exit.setText(_translate("MainClientWindow", "Выход"))
         self.menu_add_contact.setText(_translate("MainClientWindow", "Добавить контакт"))
         self.menu_del_contact.setText(_translate("MainClientWindow", "Удалить контакт"))
-
