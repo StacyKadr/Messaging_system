@@ -188,3 +188,100 @@
 2022-10-13 20:25:48,442 INFO main_window.py Успешно добавлен контакт <PyQt5.QtGui.QStandardItem object at 0x000001824CDF0B80>
 2022-10-13 20:25:55,284 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'client_2', 'time': 1665685555.2844408, 'mess_text': 'привет'}
 2022-10-13 20:25:55,458 DEBUG transport.py Разбор сообщения от сервера: {'response': 400, 'error': 'Пользователь не зарегистрирован на сервере.'}
+2022-10-17 14:08:55,060 DEBUG client_part.py Args loaded
+2022-10-17 14:09:03,782 DEBUG client_part.py Using USERNAME = User1, PASSWD = 12345.
+2022-10-17 14:09:03,782 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: User1
+2022-10-17 14:09:04,554 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:09:05,029 INFO transport.py Попытка подключения №1
+2022-10-17 14:09:08,097 INFO transport.py Попытка подключения №2
+2022-10-17 14:09:11,122 INFO transport.py Попытка подключения №3
+2022-10-17 14:09:14,158 INFO transport.py Попытка подключения №4
+2022-10-17 14:10:56,334 DEBUG client_part.py Args loaded
+2022-10-17 14:10:56,349 DEBUG client_part.py Args loaded
+2022-10-17 14:10:56,365 DEBUG client_part.py Args loaded
+2022-10-17 14:10:56,884 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test2
+2022-10-17 14:10:56,884 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test3
+2022-10-17 14:10:56,900 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test1
+2022-10-17 14:10:56,994 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:10:57,025 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:10:57,197 INFO transport.py Попытка подключения №1
+2022-10-17 14:10:57,525 INFO transport.py Попытка подключения №1
+2022-10-17 14:10:57,728 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:10:58,493 INFO transport.py Попытка подключения №1
+2022-10-17 14:11:00,259 INFO transport.py Попытка подключения №2
+2022-10-17 14:11:00,587 INFO transport.py Попытка подключения №2
+2022-10-17 14:11:01,555 INFO transport.py Попытка подключения №2
+2022-10-17 14:11:03,313 INFO transport.py Попытка подключения №3
+2022-10-17 14:11:03,645 INFO transport.py Попытка подключения №3
+2022-10-17 14:11:04,607 INFO transport.py Попытка подключения №3
+2022-10-17 14:11:06,367 INFO transport.py Попытка подключения №4
+2022-10-17 14:11:06,701 INFO transport.py Попытка подключения №4
+2022-10-17 14:11:07,666 INFO transport.py Попытка подключения №4
+2022-10-17 14:11:09,420 INFO transport.py Попытка подключения №5
+2022-10-17 14:11:09,764 INFO transport.py Попытка подключения №5
+2022-10-17 14:11:10,697 INFO transport.py Попытка подключения №5
+2022-10-17 14:11:12,455 CRITICAL transport.py Не удалось установить соединение с сервером
+2022-10-17 14:11:12,830 CRITICAL transport.py Не удалось установить соединение с сервером
+2022-10-17 14:11:13,735 CRITICAL transport.py Не удалось установить соединение с сервером
+2022-10-17 14:19:11,248 DEBUG client_part.py Args loaded
+2022-10-17 14:19:11,264 DEBUG client_part.py Args loaded
+2022-10-17 14:19:11,295 DEBUG client_part.py Args loaded
+2022-10-17 14:19:11,810 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test1
+2022-10-17 14:19:11,873 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test3
+2022-10-17 14:19:11,873 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test2
+2022-10-17 14:19:11,904 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:19:11,967 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:19:11,982 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:19:12,060 INFO transport.py Попытка подключения №1
+2022-10-17 14:19:12,217 INFO transport.py Попытка подключения №1
+2022-10-17 14:19:12,232 INFO transport.py Попытка подключения №1
+2022-10-17 14:19:15,106 INFO transport.py Попытка подключения №2
+2022-10-17 14:19:15,294 INFO transport.py Попытка подключения №2
+2022-10-17 14:19:15,314 INFO transport.py Попытка подключения №2
+2022-10-17 14:19:18,143 INFO transport.py Попытка подключения №3
+2022-10-17 14:19:18,343 INFO transport.py Попытка подключения №3
+2022-10-17 14:19:18,359 INFO transport.py Попытка подключения №3
+2022-10-17 14:19:21,203 INFO transport.py Попытка подключения №4
+2022-10-17 14:19:21,390 INFO transport.py Попытка подключения №4
+2022-10-17 14:19:21,421 INFO transport.py Попытка подключения №4
+2022-10-17 14:19:24,239 INFO transport.py Попытка подключения №5
+2022-10-17 14:19:24,413 INFO transport.py Попытка подключения №5
+2022-10-17 14:19:24,444 INFO transport.py Попытка подключения №5
+2022-10-17 14:19:27,262 CRITICAL transport.py Не удалось установить соединение с сервером
+2022-10-17 14:19:27,434 CRITICAL transport.py Не удалось установить соединение с сервером
+2022-10-17 14:20:55,605 DEBUG client_part.py Args loaded
+2022-10-17 14:20:55,620 DEBUG client_part.py Args loaded
+2022-10-17 14:20:56,136 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test2
+2022-10-17 14:20:56,136 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test1
+2022-10-17 14:20:56,229 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:20:56,229 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:20:56,542 INFO transport.py Попытка подключения №1
+2022-10-17 14:20:56,558 DEBUG transport.py Connection established.
+2022-10-17 14:20:56,558 DEBUG transport.py Starting auth dialog.
+2022-10-17 14:20:56,589 INFO transport.py Попытка подключения №1
+2022-10-17 14:20:56,589 DEBUG transport.py Connection established.
+2022-10-17 14:20:56,589 DEBUG transport.py Starting auth dialog.
+2022-10-17 14:20:56,589 DEBUG transport.py Passwd hash ready: b'6c95daf460f03d00239959faac8387d157dafbe382cd684426a295cd37fbcb0e4d874cae7b07017717c8acaff862f6241d4eaeea2366f6a7b5076a8c72035cd6'
+2022-10-17 14:20:56,589 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1666009256.5892725, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtrfkZ/5Xtj72x44QP9b5\neTenYYlSJkkb6X+jL4pqATUwGcvvcxBDtRrR0j1VZzhdlUvetoA3MvecULu3jTvg\nRhcrRHQRIzgMSjNV9ZGFBqhZvQmwGJEDI72dAjLyb1e5t1fT45o2DRfA+Zgxt+N0\ntTIgV7xIQiJrkGkaTje1oXqa9a1MH3o2bMLyrnfv2FE3SKdEQK5GUy+ec0P42QUx\njQ4GG2tEVYHJHS8tiQ+Rwz2Qcubs2YeqmLiUP6ZNdRLEZxn4YN0YNsTPEYzre2qo\n/nAAuWSixjOzt8OQQoSlOjL+VcDZBTitNSmnCMtjcVeTj36J5jUsc3onQofaWf1M\npQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-10-17 14:20:56,604 DEBUG transport.py Passwd hash ready: b'49b70501d4d72ff5522a79cf779df86656a057282ac9ab564efb80fcba4fbc484bedcf52b3fb233d9b7b91337becc542ec3256a0269deddfedbce7275f44a781'
+2022-10-17 14:20:56,604 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1666009256.6048865, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmKN/CFSxgU8eu0oO0oKw\n29WTZQSfqw/mJgEtr8nLUAOHGcg3kT7epUgPfwbo/V67sJlGhb/UD7dPK81utWRn\nFKhhUGuo+ad/4HnvbSQjIHy2Wbr85T4gJCL1IqTkodAgSOo4Nuv/Qq9r5po0dNIC\nF4YTZrzfCy6V0v349iXM2CXf+/14fHCxsm3OkNCUwHsOW6nzh5fIyAs1UhssJm/Z\nbCNzX5PkRjI7bwBJhoXHNgS1fDyII6vGrQAyAwxU0hKrBAtAzYIon5ZlIYxyF2/5\nKb8IVmLmnrvCpmtjTQ4u80Dp6YuErMCD82GzgUi50UdQoW617AmFxaKpvO7Lu+aA\nfwIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-10-17 14:20:56,604 DEBUG transport.py Server response = {'response': 400, 'error': 'Пользователь не зарегистрирован.'}.
+2022-10-17 14:20:57,149 DEBUG transport.py Server response = {'response': 400, 'error': 'Пользователь не зарегистрирован.'}.
+2022-10-17 14:22:40,870 DEBUG client_part.py Args loaded
+2022-10-17 14:22:40,870 DEBUG client_part.py Args loaded
+2022-10-17 14:22:41,386 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test1
+2022-10-17 14:22:41,386 INFO client_part.py Запущен клиент с параметрами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test2
+2022-10-17 14:22:41,464 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:22:41,480 DEBUG client_part.py Keys successfully loaded.
+2022-10-17 14:22:41,636 INFO transport.py Попытка подключения №1
+2022-10-17 14:22:41,636 DEBUG transport.py Connection established.
+2022-10-17 14:22:41,636 DEBUG transport.py Starting auth dialog.
+2022-10-17 14:22:41,683 DEBUG transport.py Passwd hash ready: b'49b70501d4d72ff5522a79cf779df86656a057282ac9ab564efb80fcba4fbc484bedcf52b3fb233d9b7b91337becc542ec3256a0269deddfedbce7275f44a781'
+2022-10-17 14:22:41,683 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1666009361.6831806, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmKN/CFSxgU8eu0oO0oKw\n29WTZQSfqw/mJgEtr8nLUAOHGcg3kT7epUgPfwbo/V67sJlGhb/UD7dPK81utWRn\nFKhhUGuo+ad/4HnvbSQjIHy2Wbr85T4gJCL1IqTkodAgSOo4Nuv/Qq9r5po0dNIC\nF4YTZrzfCy6V0v349iXM2CXf+/14fHCxsm3OkNCUwHsOW6nzh5fIyAs1UhssJm/Z\nbCNzX5PkRjI7bwBJhoXHNgS1fDyII6vGrQAyAwxU0hKrBAtAzYIon5ZlIYxyF2/5\nKb8IVmLmnrvCpmtjTQ4u80Dp6YuErMCD82GzgUi50UdQoW617AmFxaKpvO7Lu+aA\nfwIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-10-17 14:22:41,698 INFO transport.py Попытка подключения №1
+2022-10-17 14:22:41,698 DEBUG transport.py Connection established.
+2022-10-17 14:22:41,698 DEBUG transport.py Starting auth dialog.
+2022-10-17 14:22:41,698 DEBUG transport.py Server response = {'response': 400, 'error': 'Пользователь не зарегистрирован.'}.
+2022-10-17 14:22:41,714 DEBUG transport.py Passwd hash ready: b'6c95daf460f03d00239959faac8387d157dafbe382cd684426a295cd37fbcb0e4d874cae7b07017717c8acaff862f6241d4eaeea2366f6a7b5076a8c72035cd6'
+2022-10-17 14:22:41,714 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1666009361.7144225, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtrfkZ/5Xtj72x44QP9b5\neTenYYlSJkkb6X+jL4pqATUwGcvvcxBDtRrR0j1VZzhdlUvetoA3MvecULu3jTvg\nRhcrRHQRIzgMSjNV9ZGFBqhZvQmwGJEDI72dAjLyb1e5t1fT45o2DRfA+Zgxt+N0\ntTIgV7xIQiJrkGkaTje1oXqa9a1MH3o2bMLyrnfv2FE3SKdEQK5GUy+ec0P42QUx\njQ4GG2tEVYHJHS8tiQ+Rwz2Qcubs2YeqmLiUP6ZNdRLEZxn4YN0YNsTPEYzre2qo\n/nAAuWSixjOzt8OQQoSlOjL+VcDZBTitNSmnCMtjcVeTj36J5jUsc3onQofaWf1M\npQIDAQAB\n-----END PUBLIC KEY-----'}}
+2022-10-17 14:22:42,228 DEBUG transport.py Server response = {'response': 400, 'error': 'Пользователь не зарегистрирован.'}.

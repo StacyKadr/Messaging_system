@@ -13,7 +13,7 @@ def main():
             # Запускаем сервер!
             process.append(
                 subprocess.Popen(
-                    'python server_script.py.py',
+                    'python server_part.py',
                     creationflags=subprocess.CREATE_NEW_CONSOLE))
         elif action == 'k':
             print('Убедитесь, что на сервере зарегистрировано необходимо количество клиентов с паролем 123456.')
@@ -24,7 +24,7 @@ def main():
             for i in range(clients_count):
                 process.append(
                     subprocess.Popen(
-                        f'python client.py -n test{i + 1} -p 123456',
+                        f'python client_part.py -n test{i + 1} -p 123456',
                         creationflags=subprocess.CREATE_NEW_CONSOLE))
         elif action == 'x':
             while process:
