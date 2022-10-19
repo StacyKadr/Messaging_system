@@ -41,7 +41,6 @@ ADD_CONTACT = 'add'
 USERS_REQUEST = 'get_users'
 PUBLIC_KEY_REQUEST = 'pubkey_need'
 
-
 # 200
 RESPONSE_200 = {RESPONSE: 200}
 # 202

@@ -1,11 +1,8 @@
 import datetime
-import sys
-import os
-
-sys.path.append('../')
+from general.variables import *
 from sqlalchemy import create_engine, Table, Column, Integer, String, Text, MetaData, DateTime
 from sqlalchemy.orm import mapper, sessionmaker
-from general.variables import *
+import os
 
 
 # Класс - база данных сервера.
@@ -15,6 +12,7 @@ class ClientDatabase:
         Использует SQLite базу данных, реализован с помощью
         SQLAlchemy ORM и используется классический подход.
         """
+
     class KnownUsers:
         def __init__(self, user):
             self.id = None
@@ -24,6 +22,7 @@ class ClientDatabase:
         '''
         Класс - отображение для таблицы статистики переданных сообщений.
         '''
+
         def __init__(self, contact, direction, message):
             self.id = None
             self.contact = contact
@@ -37,10 +36,10 @@ class ClientDatabase:
         '''
 
     def __init__(self, contact):
-            self.id = None
-            self.name = contact
+        self.id = None
+        self.name = contact
 
-        # Конструктор класса:
+    # Конструктор класса:
     def __init__(self, name):
         # Создаём движок базы данных, поскольку разрешено несколько
         # клиентов одновременно, каждый должен иметь свою БД
@@ -76,9 +75,9 @@ class ClientDatabase:
 
         # Создаём таблицу контактов
         contacts = Table('contacts', self.metadata,
-                        Column('id', Integer, primary_key=True),
-                        Column('name', String, unique=True)
-                        )
+                         Column('id', Integer, primary_key=True),
+                         Column('name', String, unique=True)
+                         )
 
         # Создаём таблицы
         self.metadata.create_all(self.database_engine)
@@ -101,7 +100,7 @@ class ClientDatabase:
         """ Метод добавляющий контакт в базу данных. """
         if not self.session.query(
                 self.Contacts).filter_by(
-                name=contact).count():
+            name=contact).count():
             contact_row = self.Contacts(contact)
             self.session.add(contact_row)
             self.session.commit()
@@ -109,12 +108,10 @@ class ClientDatabase:
     def contacts_clear(self):
         """ Метод, очищающий таблицу со списком контактов. """
         self.session.query(self.Contacts).delete()
-        self.session.commit()
 
     def del_contact(self, contact):
         """ Метод, удаляющий определённый контакт. """
         self.session.query(self.Contacts).filter_by(name=contact).delete()
-        self.session.commit()
 
     def add_users(self, users_list):
         """ Метод, заполняющий таблицу известных пользователей. """
@@ -166,19 +163,20 @@ class ClientDatabase:
                  history_row.message,
                  history_row.date) for history_row in query.all()]
 
-    # отладка
+
+# отладка
 if __name__ == '__main__':
     test_db = ClientDatabase('test1')
-    for i in ['test3', 'test4', 'test5']:
-        test_db.add_contact(i)
-    test_db.add_contact('test4')
-    test_db.add_users(['test1', 'test2', 'test3', 'test4', 'test5'])
-    test_db.save_message('test2', 'in', f'Привет! я тестовое сообщение от {datetime.datetime.now()}!')
-    test_db.save_message('test2', 'out', f'Привет! я другое тестовое сообщение от {datetime.datetime.now()}!')
-    print(test_db.get_contacts())
-    print(test_db.get_users())
-    print(test_db.check_user('test1'))
-    print(test_db.check_user('test10'))
+    # for i in ['test3', 'test4', 'test5']:
+    #     test_db.add_contact(i)
+    # test_db.add_contact('test4')
+    # test_db.add_users(['test1', 'test2', 'test3', 'test4', 'test5'])
+    # test_db.save_message('test2', 'in', f'Привет! я тестовое сообщение от {datetime.datetime.now()}!')
+    # test_db.save_message('test2', 'out', f'Привет! я другое тестовое сообщение от {datetime.datetime.now()}!')
+    # print(test_db.get_contacts())
+    # print(test_db.get_users())
+    # print(test_db.check_user('test1'))
+    # print(test_db.check_user('test10'))
     print(sorted(test_db.get_history('test2'), key=lambda item: item[3]))
-    test_db.del_contact('test4')
-    print(test_db.get_contacts())
+    # test_db.del_contact('test4')
+    # print(test_db.get_contacts())

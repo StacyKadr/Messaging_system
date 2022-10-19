@@ -114,7 +114,6 @@ class MessageProcessor(threading.Thread):
             f'Запущен сервер, порт для подключений: {self.port} , адрес с которого принимаются подключения: {self.addr}. Если адрес не указан, принимаются соединения с любых адресов.')
         # Готовим сокет
         transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        transport.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         transport.bind((self.addr, self.port))
         transport.settimeout(0.5)
 

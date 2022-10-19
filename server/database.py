@@ -253,8 +253,8 @@ class ServerStorage:
         # пользователь мы доверяем)
         if not contact or self.session.query(
                 self.UsersContacts).filter_by(
-                user=user.id,
-                contact=contact.id).count():
+            user=user.id,
+            contact=contact.id).count():
             return
 
         # Создаём объект и заносим его в базу

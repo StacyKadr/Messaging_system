@@ -1,7 +1,7 @@
 # Клиентская часть
 
 import logging
-import logs.client_log_config
+import log.client_log_config
 import argparse
 import sys
 import os
